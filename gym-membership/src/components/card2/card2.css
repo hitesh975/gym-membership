@@ -1,0 +1,62 @@
+.JoinBtn {
+  background-color: #f97316;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  margin-top: auto;
+  border: none;
+  cursor: pointer;
+}
+
+.Card2 {
+  position: relative;
+  z-index: 2;
+  background: rgba(17, 24, 39, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 240px;
+  height: 100%;
+}
+
+.Card2Title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.Card2Price {
+  color: white;
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  margin: 0;
+}
+
+.Card2PointsContainer {
+  display: flex;
+  justify-content: flex-start;
+  margin: 1rem 0;
+  flex: 1;
+}
+
+.Card2Points {
+  list-style: disc;
+  list-style-position: outside;
+  padding-left: 1.5rem;
+  margin: 0;
+  text-align: left;
+}
+
+.card2Point {
+  margin-bottom: 0.4rem;
+  padding-left: 0.25rem;
+}

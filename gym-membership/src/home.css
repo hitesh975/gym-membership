@@ -36,6 +36,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 0.5rem;
+  padding-right: 1rem;
 
   position: absolute;
   top: 25%;
@@ -55,4 +58,8 @@
   align-items: center;
   padding: 2rem;
   padding-top: 50%;
+}
+
+.WhyUsSlides {
+  background: rgba(17, 24, 39, 0.75);
 }
