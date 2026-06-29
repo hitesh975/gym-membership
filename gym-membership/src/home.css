@@ -48,3 +48,11 @@
   padding: 1rem;
   color: #ffffff;
 }
+
+.WhyUs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  padding-top: 50%;
+}

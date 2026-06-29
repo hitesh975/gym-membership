@@ -53,7 +53,10 @@
 */
 
 import "./home.css";
+import Card1 from "./components/card1/card1.tsx";
 import backgroundImage from "./assets/gym.jfif";
+import dumbbellIcon from "./assets/Dumbbell.jfif";
+
 export default function Home() {
   return (
     <div
@@ -68,6 +71,13 @@ export default function Home() {
       <section className="heroSection">
         <h2 className="heroContent">Train smarter. Get stronger.</h2>
         <h2 className="heroContent">Memberships starting at ₹999/month.</h2>
+      </section>
+      <section className="WhyUs">
+        <Card1
+          img={dumbbellIcon}
+          title="Modern Equipment"
+          description="State-of-the-art facilities to enhance your workout experience."
+        />
       </section>
     </div>
   );
