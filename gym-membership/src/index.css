@@ -4,3 +4,11 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+/* Page background */
+html,
+body {
+  background-color: #000000;
+  color: #ffffff;
+  min-height: 100%;
+}

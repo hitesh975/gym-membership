@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router";
 import Home from "./home.tsx";
+import "./App.css";
 
 export default function App() {
   return (

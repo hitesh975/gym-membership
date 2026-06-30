@@ -59,6 +59,10 @@ import dumbbellIcon from "./assets/Dumbbell.jfif";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import Card2 from "./components/card2/card2.tsx";
+import TrainerCard from "./components/trainersCard/trainerCard.tsx";
+import trainer1 from "./assets/samuel-girven-Ppua0I4VjqE-unsplash.jpg";
+import trainer2 from "./assets/sergio-kian-ZkgkTK_gfTg-unsplash.jpg";
+import trainer3 from "./assets/subhaan-saleem-irEWJkDxIW8-unsplash.jpg";
 
 export default function Home() {
   return (
@@ -75,6 +79,7 @@ export default function Home() {
         <h2 className="heroContent">Train smarter. Get stronger.</h2>
         <h2 className="heroContent">Memberships starting at ₹999/month.</h2>
       </section>
+
       <section className="WhyUs">
         <Swiper
           slidesPerView={1.2}
@@ -105,6 +110,7 @@ export default function Home() {
           </SwiperSlide>
         </Swiper>
       </section>
+
       <section className="Plans">
         <Swiper
           slidesPerView={1.2}
@@ -150,7 +156,23 @@ export default function Home() {
           </SwiperSlide>
         </Swiper>
       </section>
-      <section className="Trainers"></section>
+
+      <section className="Trainers">
+        <Swiper
+          slidesPerView={1.2}
+          centeredSlides={true}
+          spaceBetween={20}
+          className="Trainers"
+        >
+          <SwiperSlide>
+            <TrainerCard
+              name="Samuel Girven"
+              description="Body building trainer"
+              image={trainer1}
+            />
+          </SwiperSlide>
+        </Swiper>
+      </section>
     </div>
   );
 }

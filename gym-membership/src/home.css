@@ -63,3 +63,24 @@
 .WhyUsSlides {
   background: rgba(17, 24, 39, 0.75);
 }
+
+/* Make plan cards equal height inside Swiper slides */
+.PlansSlides .swiper-wrapper {
+  display: flex;
+  align-items: stretch;
+}
+
+.PlansSlides .swiper-wrapper .swiper-slide {
+  display: flex;
+  align-items: stretch;
+}
+
+.PlansSlides .swiper-wrapper .swiper-slide .Card2 {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.PlansSlides {
+  background: rgba(17, 24, 39, 0.75);
+}
